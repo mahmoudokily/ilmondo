@@ -1,5 +1,5 @@
 import styles from './layout.module.css'
-import Link from 'next/Link'
+import Link from 'next/link'
 import Head from 'next/head'
 import PublicIcon from '@material-ui/icons/Public';
 

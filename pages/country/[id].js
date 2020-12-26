@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import styles from './country.module.css'
 import Layout from "../../components/layout/layout"
-import Link from 'next/Link'
+import Link from 'next/link'
 const getCountry = async (id) => {
     const res = await fetch(`https://restcountries.eu/rest/v2/alpha/${id}`)
     const country = await res.json();
