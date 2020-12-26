@@ -26,17 +26,14 @@
     box-shadow: inset 2px 2px 5px 0px #4a4a4f;
     background-color: #d7d7db;
     text-transform: capitalize;
-    font-size: 1.5rem;
-    grid-gap: 20px;
-    padding: 20px;
     border-radius: 8px;
 }
 
 .item {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    padding: 10px;
+    grid-template-columns: 1fr 1fr;
     border-bottom: 1px solid white;
+    padding: 20px;
 }
 
 .country_img img {
@@ -117,19 +114,35 @@
         border-radius: 8px;
         padding: 2px;
         box-shadow: inset 2px 2px 5px 0px #4a4a4f;
-
-
     }
 
     .country_details {
         box-shadow: none;
+        padding: 10px;
+    
+        }
+
+        .country_heading {
+            box-shadow: none;
+            }
+
+            .item {
+                grid-gap: 20px;
+                padding: 10px 0px;
+
+            }
+
+            .country_name {
+                font-size: 20px;
+            }
+
+    .borders_head {
+        text-align: center;
+        font-size: 1.5rem;
 
     }
 
-    .country_heading {
-
-        box-shadow: none;
-
-
+    .country_value {
+        font-size: 1rem;
     }
 }

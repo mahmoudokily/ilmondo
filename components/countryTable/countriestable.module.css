@@ -92,4 +92,11 @@
     .country_gini {
         display: none;
     }
+    .sort_buttons button {
+
+        font-size: 1rem;
+
+
+
+    }
 }

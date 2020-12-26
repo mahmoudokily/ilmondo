@@ -69,7 +69,11 @@ const Country = ({ country }) => {
                     </div>
                     <div className={styles.item}>
                         <div>languages </div>
-                        <div>{country.languages.map(({ name }) => name).join(',')}</div>
+                        <div>{country.languages.map(({ name }) => (
+                            <div>{name}</div>
+
+                        ))}
+                        </div>
                     </div>
                     <div className={styles.item}>
                         <div>nativeName </div>

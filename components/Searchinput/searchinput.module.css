@@ -18,9 +18,9 @@
     height: 100%;
     outline: none;
     color: #737373;
+    overflow: hidden;
 }
 
 .input::placeholder {
     text-transform: capitalize;
-    padding: 0px 10px;
 }

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import PublicIcon from '@material-ui/icons/Public';
 
-const Layout = ({ children, title = "World Ranks" }) => (
+const Layout = ({ children, title = "Ilmondo" }) => (
     <div className={styles.container}>
         <Head>
             <title>{title} </title>
