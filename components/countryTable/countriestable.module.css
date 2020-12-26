@@ -1,0 +1,95 @@
+.country {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #d7d7db;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: all 100ms;
+    box-shadow: 5px 5px 5px 0px #737373
+}
+
+.country:hover {
+    background-color: #f9f9fa;
+    box-shadow: inset 4px 4px 15px 0px #ededf0
+}
+
+.country_name,
+.country_population,
+.country_gini,
+.country_area {
+    flex: 4;
+
+}
+
+.country_flag {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.country_flag img {
+    width: 100%;
+}
+
+.country_name {
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+}
+
+.sort_buttons {
+    display: flex;
+    text-align: center;
+
+}
+
+.sort_buttons button {
+    background-color: #d7d7db;
+    border-bottom: 2px solid white;
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 1.3px;
+
+
+}
+
+.name,
+.population,
+.gini,
+.area,
+.flag {
+    flex: 4;
+    border: 0;
+    outline: none;
+    padding: 20px 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+
+}
+
+.flag {
+    flex: 1;
+}
+
+.name {
+    text-align: left;
+    justify-content: flex-start;
+}
+
+@media(max-width : 720px) {
+
+    .area,
+    .gini {
+        display: none;
+    }
+
+    .country_area,
+    .country_gini {
+        display: none;
+    }
+}

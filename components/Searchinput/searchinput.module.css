@@ -1,0 +1,26 @@
+.searchinput {
+
+    height: 40px;
+    background-color: #f9f9fa;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+    box-shadow: 5px 5px 5px 0px #737373;
+
+
+}
+
+.input {
+    border: 0;
+    background-color: #f9f9fa;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    color: #737373;
+}
+
+.input::placeholder {
+    text-transform: capitalize;
+    padding: 0px 10px;
+}
