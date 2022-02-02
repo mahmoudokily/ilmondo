@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "14.17.5"
+    "node": "14.15.0"
   },
   "scripts": {
     "dev": "next",
@@ -11,7 +11,7 @@
     "start": "next start -p $PORT"
   },
   "dependencies": {
-    "@material-ui/core": "^4.11.2",
+    "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
     "next": "10.0.4",
     "react": "17.0.1",

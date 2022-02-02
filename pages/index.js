@@ -32,7 +32,6 @@ function Home({ countries }) {
       </div>
 
       <CountriesTable countries={filterdCountries} />
-      {console.log(countries)}
     </Layout>
   );
 }

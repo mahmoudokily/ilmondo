@@ -5,7 +5,7 @@ import {
 import { useState } from "react";
 import styles from "./countriestable.module.css";
 import Link from "next/link";
-
+import { Typography } from "@material-ui/core";
 const orderBy = (countries, value, direction) => {
   if (direction === "desc") {
     return [...countries].sort((a, b) => (a[value] > b[value] ? -1 : 1));
@@ -59,7 +59,7 @@ const CountriesTable = ({ countries }) => {
           className={styles.name}
           onClick={() => setValueAndDirection("name")}
         >
-          <div>Name</div>
+          <Typography variant="h5">Name</Typography>
           {value === "name" && <RowOrder direction={direction} />}
         </button>
         <button
